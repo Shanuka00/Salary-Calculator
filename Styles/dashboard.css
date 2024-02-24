@@ -1,0 +1,42 @@
+.header {
+    background-color:white;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(215, 236, 254);
+}
+
+/* Style for navigation buttons */
+.nav-button {
+    width: 200px;
+    /* Set the width of the buttons */
+    height: 100px;
+    /* Set the height of the buttons */
+    margin: 20px 30px;
+    /* Adjust spacing between buttons (vertical and horizontal) */
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+    border-radius: 25px;
+}
+
+.btn-container {
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /*Horizontally center the buttons */
+    margin-top: 100px;
+    /* align-items: center; */
+    /*Vertically center the buttons*/
+    height: 100vh;
+    /* Make sure the container takes full height of the viewport */
+}
